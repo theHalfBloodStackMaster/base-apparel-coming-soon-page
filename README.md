@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Base Apparel coming soon page repo](https://your-solution-url.com)
-- Live Site URL: [Base Apparel coming soon page web page](https://your-live-site-url.com)
+- Solution URL: [Base Apparel coming soon page repo](https://github.com/theHalfBloodStackMaster/base-apparel-coming-soon-page)
+- Live Site URL: [Base Apparel coming soon page web page](https://base-apparel-coming-soon-page-neon-three.vercel.app/)
 
 ## My process
 
