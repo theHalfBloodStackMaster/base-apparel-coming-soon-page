@@ -1,26 +1,22 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-pink-400: hsl(0, 36%, 70%);
+  --color-red-500: hsl(0, 93%, 68%);
+  --color-gray-900: hsl(0, 6%, 24%);
+  --color-highlight: hsl(0, 74%, 74%);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root{
+  --gradient-bg: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  --gradient-button-hover: linear-gradient(135deg,hsl(0, 74%, 74%), hsl(0, 80%, 80%));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+body{
+  font-family: var(--font-josefin), sans-serif;
+  min-height: 100vh;
+  background-image: url(../assets/images/bg-pattern-desktop.svg), var(--gradient-bg);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: top left;
 }

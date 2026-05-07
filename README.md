@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](./src/assets/images/comming_soon.png)
 
 ### Links
 
